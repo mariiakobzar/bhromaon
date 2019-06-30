@@ -82,10 +82,10 @@
             </div>
             <div class="choose-gallery">
                 <div class="choose-gallery__image">
-                    <img src="img/img-1.jpg" alt="">
+                    <img src="img/img-1.jpg" alt="view">
                 </div>
                 <div class="choose-gallery__image">
-                    <img src="img/img-2.jpg" alt="">
+                    <img src="img/img-2.jpg" alt="view">
                 </div>
             </div>
         </div>
@@ -154,16 +154,18 @@
                     <img src="img/review-content.jpg" alt="review">
                 </div>
                 <div class="say-box-info">
-                    <h3 class="say-box-info__title">Sam Sumon</h3>
-                    <p class="say-box-info__text">
-                        <svg>
-                            <use xlink:href="#quote"></use>
-                        </svg>
-                        But I must explain to you how all this mistaken idea of account
-                        to denouncinpleasure and praising pain But I must explain to you how all this mistaken idea
-                        of account to nai denouncing pleasure and praising pain was account born and I account will
-                        give you a complete account of the system
-                    </p>
+                    <div class="say-box-info__container">
+                        <h3 class="say-box-info__title">Sam Sumon</h3>
+                        <p class="say-box-info__text">
+                            <svg>
+                                <use xlink:href="#quote"></use>
+                            </svg>
+                            But I must explain to you how all this mistaken idea of account
+                            to denouncinpleasure and praising pain But I must explain to you how all this mistaken idea
+                            of account to nai denouncing pleasure and praising pain was account born and I account will
+                            give you a complete account of the system
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -177,20 +179,6 @@
             Safe Travel Anywhere
         </p>
         <ul class="menu">
-            <li class="menu__item">
-                <a href="#" class="menu__link">
-                    <svg>
-                        <use xlink:href="#svg-google"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="menu__item">
-                <a href="#" class="menu__link">
-                    <svg>
-                        <use xlink:href="#svg-telegram"></use>
-                    </svg>
-                </a>
-            </li>
             <li class="menu__item">
                 <a href="#" class="menu__link">
                     <svg>
@@ -209,6 +197,20 @@
                 <a href="#" class="menu__link">
                     <svg>
                         <use xlink:href="#svg-in"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">
+                    <svg>
+                        <use xlink:href="#svg-youtube"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">
+                    <svg>
+                        <use xlink:href="#svg-pinterest"></use>
                     </svg>
                 </a>
             </li>
@@ -328,8 +330,8 @@
                 <path id="svg-youtube__main" xmlns="http://www.w3.org/2000/svg"
 
                       d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0"/>
-                <path id="svg-youtube__arrow" xmlns="http://www.w3.org/2000/svg"
-                      d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#aaa"/>
+                <path id="svg-youtube__arrow" style="fill:#232323;" xmlns="http://www.w3.org/2000/svg"
+                      d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" />
             </g>
             <use fill="#fff" xlink:href="#svg-youtube__arrow"></use>
         </symbol>
@@ -343,9 +345,10 @@
   C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
   C480.224,136.96,497.728,118.496,512,97.248z"/>
         </symbol>
-        <symbol id="svg-in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;"
-             xml:space="preserve">
+        <symbol id="svg-in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px"
+                viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;"
+                xml:space="preserve">
 <g>
 	<path id="LinkedIn" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707
 		c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21
@@ -355,6 +358,21 @@
 		 M5.477,420.56h92.184v-277.32H5.477V420.56z"/>
 </g>
 </symbol>
+        <symbol id="svg-pinterest" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+             viewBox="0 0 412.439 412.439" style="enable-background:new 0 0 412.439 412.439;" xml:space="preserve">
+<path d="M412.352,212.265c3.366-117.68-91.89-213.949-209.203-212.243
+	C90.239,1.664-0.858,94.912,0.006,207.831c0.62,80.912,47.841,150.724,116.145,183.94c3.951,1.921,8.525-1.066,8.36-5.457
+	c-0.498-13.268-0.069-27.452,2.586-38.854c2.613-11.227,12.866-54.643,19.607-83.164c3.281-13.885,3.677-28.303,1.035-42.324
+	c-0.867-4.601-1.495-10.006-1.495-16.013c0-30.479,17.666-53.235,39.663-53.235c18.701,0,27.735,14.041,27.735,30.877
+	c0,18.807-11.975,46.925-18.155,72.984c-5.164,21.818,10.942,39.61,32.46,39.61c38.96,0,68.907-41.08,68.907-100.378
+	c0-52.483-37.712-89.179-91.561-89.179c-62.369,0-98.978,46.781-98.978,95.127c0,18.839,7.258,39.042,16.313,50.024
+	c1.79,2.17,2.054,4.073,1.521,6.287c-1.664,6.924-5.362,21.813-6.088,24.859c-0.957,4.013-3.177,4.863-7.33,2.932
+	c-27.379-12.744-44.494-52.769-44.494-84.919c0-69.147,50.239-132.647,144.833-132.647c76.04,0,135.134,54.184,135.134,126.599
+	c0,75.545-47.633,136.343-113.747,136.343c-17.471,0-34.12-7.14-43.908-16.821c-3.01-2.977-8.099-1.621-9.173,2.474
+	c-3.447,13.133-9.019,34.376-10.814,41.284c-3.232,12.429-10.043,26.905-16.871,39.512c-1.814,3.35,0.021,7.488,3.714,8.424
+	c16.857,4.275,34.538,6.482,52.764,6.313C316.378,411.425,409.258,320.436,412.352,212.265z"/>
+</symbol>
+
     </svg>
 </div>
 </body>

@@ -445,6 +445,9 @@ button, .button {
       background-color: #333333;
       width: calc(100% - 445px);
       padding: 50px 60px; }
+      .say-box-info__container {
+        height: 100%;
+        overflow: hidden; }
       .say-box-info__title {
         font-size: 20px;
         text-transform: uppercase;
@@ -485,7 +488,7 @@ button, .button {
   .footer__text {
     margin-bottom: 1.5em; }
   .footer li:not(:last-child) {
-    margin-right: 10px; }
+    margin-right: 15px; }
   .footer svg {
     height: 18px;
     width: 18px;
